@@ -2,6 +2,19 @@
 #include <cmath>
 using namespace std;
 
+void addition() {
+double a, b;
+cout << "Enter two numbers: ";
+cin >> a >> b;
+cout << "Result: " << a + b << endl;
+}
+void subtraction() {
+double a, b;
+cout << "Enter two numbers: ";
+cin >> a >> b;
+cout << "Result: " << a - b << endl;
+}
+
 void multiplication() {
 double a, b;
 cout << "Enter two numbers: ";
@@ -20,6 +33,7 @@ cout << "Result: " << a / b << endl;
 }
 
 void power() {
+
 double a, b;
 cout << "Enter base and exponent: ";
 cin >> a >> b;
