@@ -52,7 +52,7 @@ cout << "Result: " << sqrt(a) << endl;
 }
 
 int main(){
-int choice
+int choice;
 do {
 cout << "\n=== TEAM CALCULATOR ===\n";
 cout << "1. Addition\n";
