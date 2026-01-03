@@ -2,6 +2,23 @@
 #include <cmath>
 using namespace std;
 
+void multiplication() {
+double a, b;
+cout << "Enter two numbers: ";
+cin >> a >> b;
+cout << "Result: " << a * b << endl;
+}
+void division() {
+double a, b;
+cout << "Enter two numbers: ";
+cin >> a >> b;
+if (b == 0) {
+cout << "Error: Division by zero!" << endl;
+} else {
+cout << "Result: " << a / b << endl;
+}
+}
+
 void power() {
 double a, b;
 cout << "Enter base and exponent: ";
